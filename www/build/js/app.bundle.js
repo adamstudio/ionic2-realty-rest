@@ -3218,7 +3218,7 @@
 	        this.initializeApp();
 
 	        // set our app's pages
-	        this.pages = [{ title: 'Welcome', component: _welcome.WelcomePage, icon: "bookmark" }, { title: 'Patients', component: _propertyList.PropertyListPage, icon: "home" }, { title: 'Vitals', component: _brokerList.BrokerListPage, icon: "people" }, { title: 'Alerts', component: _favoriteList.FavoriteListPage, icon: "star" }];
+	        this.pages = [{ title: 'Welcome', component: _welcome.WelcomePage, icon: "bookmark" }, { title: 'Patients', component: _propertyList.PropertyListPage, icon: "home" }, { title: 'Doctors', component: _brokerList.BrokerListPage, icon: "people" }, { title: 'Alerts', component: _favoriteList.FavoriteListPage, icon: "star" }];
  
 
 	        // make PropertyListPage the root (or first) page

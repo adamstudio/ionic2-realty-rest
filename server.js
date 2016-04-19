@@ -25,5 +25,5 @@ app.get('/brokers', brokers.findAll);
 app.get('/brokers/:id', brokers.findById);
 
 app.listen(app.get('port'), function () {
-    console.log('Realty server listening on port ' + app.get('port'));
+    console.log('Health Sense server listening on port ' + app.get('port'));
 });

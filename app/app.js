@@ -28,7 +28,7 @@ class MyApp {
         this.pages = [
             {title: 'Welcome', component: WelcomePage, icon: "bookmark"},
             {title: 'Patients', component: PropertyListPage, icon: "home"},
-            {title: 'Vitals', component: BrokerListPage, icon: "people"},
+            {title: 'Doctors', component: BrokerListPage, icon: "people"},
             {title: 'Alerts', component: FavoriteListPage, icon: "star"}
         ];
 
