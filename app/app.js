@@ -27,9 +27,9 @@ class MyApp {
         // set our app's pages
         this.pages = [
             {title: 'Welcome', component: WelcomePage, icon: "bookmark"},
-            {title: 'Properties', component: PropertyListPage, icon: "home"},
-            {title: 'Brokers', component: BrokerListPage, icon: "people"},
-            {title: 'Favorites', component: FavoriteListPage, icon: "star"}
+            {title: 'Patients', component: PropertyListPage, icon: "home"},
+            {title: 'Vitals', component: BrokerListPage, icon: "people"},
+            {title: 'Alerts', component: FavoriteListPage, icon: "star"}
         ];
 
         // make PropertyListPage the root (or first) page
